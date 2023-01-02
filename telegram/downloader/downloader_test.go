@@ -15,10 +15,10 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/syncio"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/syncio"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
 )
 
 type mock struct {

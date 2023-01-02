@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func TestEncrypt(t *testing.T) {

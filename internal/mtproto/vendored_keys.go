@@ -5,8 +5,8 @@ import (
 	_ "embed"
 	"sync"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/exchange"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/exchange"
 )
 
 var (

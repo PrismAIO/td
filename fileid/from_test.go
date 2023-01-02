@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 func TestFromDocument(t *testing.T) {

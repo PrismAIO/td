@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/transport"
 )
 
 type bufferedConn struct {

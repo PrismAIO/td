@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func testManager(t *testing.T) (*tgmock.Mock, *Manager) {

@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 func (i *Mock) request(fn func(b bin.Encoder)) *RequestBuilder {

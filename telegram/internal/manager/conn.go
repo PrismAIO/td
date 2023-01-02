@@ -9,13 +9,13 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/mtproto"
-	"github.com/gotd/td/internal/pool"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/mtproto"
+	"github.com/PrismAIO/td/internal/pool"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 type protoConn interface {
@@ -214,7 +214,7 @@ func (c *Conn) init(ctx context.Context) error {
 				// Server sometimes returns FLOOD_WAIT(0) if you create
 				// multiple connections in short period of time.
 				//
-				// See https://github.com/gotd/td/issues/388.
+				// See https://github.com/PrismAIO/td/issues/388.
 				return errors.Wrap(err, "flood wait")
 			}
 			// Not retrying other errors.

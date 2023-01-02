@@ -3,7 +3,7 @@ package telegram
 import (
 	"context"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // SendMessage sends message to peer.

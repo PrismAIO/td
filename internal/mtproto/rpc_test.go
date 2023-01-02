@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func TestConn_dropRPC(t *testing.T) {

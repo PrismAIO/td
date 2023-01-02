@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/auth"
-	"github.com/gotd/td/telegram/auth/qrlogin"
-	"github.com/gotd/td/telegram/dcs"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/auth"
+	"github.com/PrismAIO/td/telegram/auth/qrlogin"
+	"github.com/PrismAIO/td/telegram/dcs"
+	"github.com/PrismAIO/td/tg"
 )
 
 func ExampleClient_Auth_codeOnly() {

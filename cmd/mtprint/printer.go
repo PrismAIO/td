@@ -8,13 +8,13 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/k0kubun/pp/v3"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/proto/codec"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/tdp"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/proto/codec"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/tdp"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/transport"
 )
 
 // Object is abstraction for TL schema object.

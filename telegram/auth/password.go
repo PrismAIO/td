@@ -7,9 +7,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/crypto/srp"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/crypto/srp"
+	"github.com/PrismAIO/td/tg"
 )
 
 // PasswordHash computes password hash to log in.

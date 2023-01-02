@@ -6,7 +6,7 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // getUserFull gets tg.UserFull using given tg.InputUserClass.

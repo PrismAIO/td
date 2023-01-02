@@ -6,11 +6,11 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/syncio"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/syncio"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 type part struct {

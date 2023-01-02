@@ -3,7 +3,7 @@ package peers
 import (
 	"context"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Bot is a bot User.

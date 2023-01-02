@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/tg"
 )
 
 // NewFlow initializes new authentication flow.

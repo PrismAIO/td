@@ -10,16 +10,16 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/exchange"
-	"github.com/gotd/td/internal/mtproto/salts"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/exchange"
+	"github.com/PrismAIO/td/internal/mtproto/salts"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/transport"
 )
 
 // Handler will be called on received message from Telegram.

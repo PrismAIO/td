@@ -3,7 +3,7 @@ package proto
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
+	"github.com/PrismAIO/td/bin"
 )
 
 // MessageContainerTypeID is TL type id of MessageContainer.

@@ -9,13 +9,13 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/tg"
 )
 
 type fuzzHandler struct {

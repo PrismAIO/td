@@ -1,7 +1,7 @@
 package markup
 
 import (
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // ReplyKeyboardMarkupBuilder is a keyboard markup builder.

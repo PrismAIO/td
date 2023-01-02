@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/mtproxy"
+	"github.com/PrismAIO/td/internal/mtproxy"
 )
 
 // Obfuscated2 implements obfuscated2 obfuscation protocol.

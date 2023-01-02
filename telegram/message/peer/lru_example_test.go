@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/message"
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/message"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/tg"
 )
 
 func resolveLRU(ctx context.Context) error {

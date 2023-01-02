@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
+	"github.com/PrismAIO/td/bin"
 )
 
 const (
@@ -43,7 +43,7 @@ func (p ProtocolErr) Error() string {
 
 // Can be bigger that 1mb.
 //
-// See https://github.com/gotd/td/issues/412
+// See https://github.com/PrismAIO/td/issues/412
 //
 // See https://github.com/tdlib/td/blob/550ccc8d9bbbe9cff1dc618aef5764d2cbd2cd91/td/mtproto/TcpTransport.cpp#L53
 const maxMessageSize = 1 << 24 // 16 MB

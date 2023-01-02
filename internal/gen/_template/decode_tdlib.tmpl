@@ -1,4 +1,4 @@
-{{- /*gotype: github.com/gotd/td/internal/gen.structDef*/ -}}
+{{- /*gotype: github.com/PrismAIO/td/internal/gen.structDef*/ -}}
 {{ define "decode_tdlib_json" }}{{ $s := . }}
 // DecodeTDLibJSON implements tdjson.TDLibDecoder.
 func ({{ $s.Receiver }} *{{ $s.Name }}) DecodeTDLibJSON({{ $s.BufArg }} tdjson.Decoder) error {

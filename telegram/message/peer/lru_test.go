@@ -11,8 +11,8 @@ import (
 
 	"github.com/gotd/neo"
 
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
 )
 
 func TestLRU(t *testing.T) {

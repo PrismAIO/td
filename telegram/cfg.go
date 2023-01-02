@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/constant"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/constant"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Available MTProto default server addresses.

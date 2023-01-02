@@ -7,10 +7,10 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/proto/codec"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/proto/codec"
 )
 
 // ServerExchangeError is returned when exchange fails due to

@@ -3,7 +3,7 @@ package downloader
 import (
 	"context"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // CDN represents Telegram RPC client to CDN server.

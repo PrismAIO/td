@@ -7,10 +7,10 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/telegram/uploader/source"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/telegram/uploader/source"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Uploader is Telegram file uploader.

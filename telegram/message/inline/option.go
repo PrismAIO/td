@@ -4,8 +4,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/tg"
 )
 
 type resultPageBuilder struct {

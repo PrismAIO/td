@@ -3,8 +3,8 @@ package pool
 import (
 	"sync"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mtproto"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mtproto"
 )
 
 // Session represents DC session.

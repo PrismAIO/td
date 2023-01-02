@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/session"
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/dcs"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/session"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/dcs"
 )
 
 type mtg struct {

@@ -6,12 +6,12 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 const (

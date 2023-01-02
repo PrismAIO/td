@@ -12,13 +12,13 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/gotd/neo"
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/tg"
 )
 
 type testUpdateHandler struct {

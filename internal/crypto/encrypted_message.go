@@ -1,6 +1,6 @@
 package crypto
 
-import "github.com/gotd/td/bin"
+import "github.com/PrismAIO/td/bin"
 
 // EncryptedMessage of protocol.
 type EncryptedMessage struct {

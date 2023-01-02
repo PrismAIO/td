@@ -9,9 +9,9 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/tdapi"
-	"github.com/gotd/td/tdjson"
-	"github.com/gotd/td/tdp"
+	"github.com/PrismAIO/td/tdapi"
+	"github.com/PrismAIO/td/tdjson"
+	"github.com/PrismAIO/td/tdp"
 )
 
 func TestEncodeDecode(t *testing.T) {

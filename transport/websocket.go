@@ -8,10 +8,10 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/gotd/td/internal/mtproxy/obfuscated2"
-	"github.com/gotd/td/internal/proto/codec"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/internal/wsutil"
+	"github.com/PrismAIO/td/internal/mtproxy/obfuscated2"
+	"github.com/PrismAIO/td/internal/proto/codec"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/internal/wsutil"
 )
 
 type wsListener struct {

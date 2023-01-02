@@ -1,7 +1,7 @@
 package updates
 
 import (
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // State is the user state.

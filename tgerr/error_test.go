@@ -6,9 +6,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 func TestError(t *testing.T) {

@@ -5,11 +5,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/exchange"
-	"github.com/gotd/td/tgtest"
-	"github.com/gotd/td/tgtest/services"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/exchange"
+	"github.com/PrismAIO/td/tgtest"
+	"github.com/PrismAIO/td/tgtest/services"
+	"github.com/PrismAIO/td/transport"
 )
 
 // Common returns common dispatcher.

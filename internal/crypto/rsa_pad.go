@@ -14,7 +14,7 @@ import (
 
 	"github.com/gotd/ige"
 
-	"github.com/gotd/td/bin"
+	"github.com/PrismAIO/td/bin"
 )
 
 func reverseBytes(s []byte) {

@@ -6,10 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/message"
-	"github.com/gotd/td/telegram/message/html"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/message"
+	"github.com/PrismAIO/td/telegram/message/html"
+	"github.com/PrismAIO/td/tg"
 )
 
 func sendHTML(ctx context.Context) error {

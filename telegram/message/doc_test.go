@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func testSender(t *testing.T) (*Sender, *tgmock.Mock) {

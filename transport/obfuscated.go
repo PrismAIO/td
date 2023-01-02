@@ -8,8 +8,8 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/multierr"
 
-	"github.com/gotd/td/internal/mtproxy/obfuscated2"
-	"github.com/gotd/td/internal/proto/codec"
+	"github.com/PrismAIO/td/internal/mtproxy/obfuscated2"
+	"github.com/PrismAIO/td/internal/proto/codec"
 )
 
 type obfListener struct {

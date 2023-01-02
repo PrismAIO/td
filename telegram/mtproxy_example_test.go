@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/dcs"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/dcs"
+	"github.com/PrismAIO/td/tg"
 )
 
 func connectViaMTProxy(ctx context.Context) error {

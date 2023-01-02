@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Config is subset of tg.Config.

@@ -1,10 +1,10 @@
 package inline
 
 import (
-	"github.com/gotd/td/telegram/message/entity"
-	"github.com/gotd/td/telegram/message/markup"
-	"github.com/gotd/td/telegram/message/styling"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/entity"
+	"github.com/PrismAIO/td/telegram/message/markup"
+	"github.com/PrismAIO/td/telegram/message/styling"
+	"github.com/PrismAIO/td/tg"
 )
 
 // MessageTextBuilder is a builder of inline result text message.

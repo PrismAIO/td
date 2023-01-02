@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // InviteLinks represents invite links of Chat or Channel.
@@ -137,7 +137,7 @@ func (e InviteLinks) hideJoinRequest(ctx context.Context, approved bool, user tg
 }
 
 func (InviteLinks) chatInviteExportedFrom(v tg.ExportedChatInviteClass) (*tg.ChatInviteExported, error) {
-	// https://github.com/gotd/td/issues/788
+	// https://github.com/PrismAIO/td/issues/788
 	// case *tg.ChatInvitePublicJoinRequests: // chatInvitePublicJoinRequests#ed107ab7 not supported
 	switch invite := v.(type) {
 	case *tg.ChatInviteExported:

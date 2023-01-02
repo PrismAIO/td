@@ -9,8 +9,8 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/clock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/clock"
 )
 
 // Engine handles RPC requests.

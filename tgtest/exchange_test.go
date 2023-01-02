@@ -8,10 +8,10 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/proto/codec"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/proto/codec"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/transport"
 )
 
 func Test_exchangeConn_Recv(t *testing.T) {

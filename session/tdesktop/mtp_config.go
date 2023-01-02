@@ -3,8 +3,8 @@ package tdesktop
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
 )
 
 // MTPConfigEnvironment is enum of config environment.

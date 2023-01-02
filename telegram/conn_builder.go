@@ -5,13 +5,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mtproto"
-	"github.com/gotd/td/internal/pool"
-	"github.com/gotd/td/telegram/dcs"
-	"github.com/gotd/td/telegram/internal/manager"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mtproto"
+	"github.com/PrismAIO/td/internal/pool"
+	"github.com/PrismAIO/td/telegram/dcs"
+	"github.com/PrismAIO/td/telegram/internal/manager"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/transport"
 )
 
 type clientHandler struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 type closeMockListener struct {

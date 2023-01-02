@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/ascii"
-	"github.com/gotd/td/telegram/internal/deeplink"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/ascii"
+	"github.com/PrismAIO/td/telegram/internal/deeplink"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Resolve uses given string to create new peer promise.

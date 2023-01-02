@@ -9,10 +9,10 @@ import (
 
 	"github.com/gotd/neo"
 
-	"github.com/gotd/td/constant"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/constant"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func testQR(t *testing.T, migrate func(ctx context.Context, dcID int) error) (*tgmock.Mock, QR) {

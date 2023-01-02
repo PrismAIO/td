@@ -6,9 +6,9 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/telegram/internal/upconv"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/telegram/internal/upconv"
+	"github.com/PrismAIO/td/tg"
 )
 
 func (c *Client) updateInterceptor(updates ...tg.UpdateClass) {

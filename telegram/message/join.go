@@ -5,10 +5,10 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/telegram/internal/deeplink"
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgerr"
+	"github.com/PrismAIO/td/telegram/internal/deeplink"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgerr"
 )
 
 // JoinLink joins to private chat using given link or hash.

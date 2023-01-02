@@ -1,8 +1,8 @@
 package html
 
 import (
-	"github.com/gotd/td/telegram/message/entity"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/entity"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Options is options of HTML.

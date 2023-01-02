@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func generateSalts(n int) []mt.FutureSalt {

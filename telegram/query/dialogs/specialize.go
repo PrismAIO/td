@@ -1,11 +1,11 @@
 package dialogs
 
 import (
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/telegram/query/channels/participants"
-	"github.com/gotd/td/telegram/query/messages"
-	"github.com/gotd/td/telegram/query/photos"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/telegram/query/channels/participants"
+	"github.com/PrismAIO/td/telegram/query/messages"
+	"github.com/PrismAIO/td/telegram/query/photos"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Messages returns new messages history query builder for current dialog.

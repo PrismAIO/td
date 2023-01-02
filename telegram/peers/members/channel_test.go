@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
 )
 
 func TestChannelMembers_Count(t *testing.T) {

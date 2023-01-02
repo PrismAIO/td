@@ -7,13 +7,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/exchange"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/tmap"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/exchange"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/tmap"
 )
 
 // Options of Conn.

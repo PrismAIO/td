@@ -20,16 +20,16 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/internal/rpc"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/telegram/dcs"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/internal/rpc"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/telegram/dcs"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 type testHandler func(id int64, body bin.Encoder) (bin.Encoder, error)

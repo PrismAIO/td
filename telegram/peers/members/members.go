@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/gotd/td/telegram/peers"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/peers"
+	"github.com/PrismAIO/td/tg"
 )
 
 var _ = []Member{

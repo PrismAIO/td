@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/tg"
 )
 
 var _ telegram.UpdateHandler = (*Manager)(nil)

@@ -6,10 +6,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/peers"
-	"github.com/gotd/td/telegram/updates"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/peers"
+	"github.com/PrismAIO/td/telegram/updates"
+	"github.com/PrismAIO/td/tg"
 )
 
 func ExampleManager() {

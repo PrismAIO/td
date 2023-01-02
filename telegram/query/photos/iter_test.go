@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func generatePhotos(count int) []tg.PhotoClass {

@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func benchWrite(codec Codec) func(payloadSize int) func(b *testing.B) {

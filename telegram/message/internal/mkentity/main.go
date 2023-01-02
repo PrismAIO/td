@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/tdp"
-	"github.com/gotd/td/telegram/message/internal/mkrun"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tdp"
+	"github.com/PrismAIO/td/telegram/message/internal/mkrun"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Field represents type field.

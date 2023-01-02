@@ -6,14 +6,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/mtproto"
-	"github.com/gotd/td/internal/proto"
-	"github.com/gotd/td/internal/tmap"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/mtproto"
+	"github.com/PrismAIO/td/internal/proto"
+	"github.com/PrismAIO/td/internal/tmap"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/transport"
 )
 
 // ServerOptions of Server.

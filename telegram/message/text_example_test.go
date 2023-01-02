@@ -6,9 +6,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/message"
-	"github.com/gotd/td/telegram/message/styling"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/message"
+	"github.com/PrismAIO/td/telegram/message/styling"
 )
 
 func sendText(ctx context.Context) error {

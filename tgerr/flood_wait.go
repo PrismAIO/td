@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/gotd/td/clock"
+	"github.com/PrismAIO/td/clock"
 )
 
 // ErrFloodWait is error type of "FLOOD_WAIT" error.

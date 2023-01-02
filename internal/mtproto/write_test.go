@@ -12,8 +12,8 @@ import (
 
 	"github.com/gotd/neo"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func benchWrite(payloadSize int) func(b *testing.B) {

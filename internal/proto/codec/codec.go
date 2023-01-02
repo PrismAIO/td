@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
+	"github.com/PrismAIO/td/bin"
 )
 
 // Codec is MTProto transport protocol encoding abstraction.

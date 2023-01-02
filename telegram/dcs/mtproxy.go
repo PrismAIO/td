@@ -8,11 +8,11 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/multierr"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mtproxy"
-	"github.com/gotd/td/internal/mtproxy/obfuscator"
-	"github.com/gotd/td/internal/proto/codec"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mtproxy"
+	"github.com/PrismAIO/td/internal/mtproxy/obfuscator"
+	"github.com/PrismAIO/td/internal/proto/codec"
+	"github.com/PrismAIO/td/transport"
 )
 
 var _ Resolver = mtProxy{}

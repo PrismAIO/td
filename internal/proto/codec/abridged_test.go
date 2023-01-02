@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gotd/td/bin"
+	"github.com/PrismAIO/td/bin"
 
 	"github.com/stretchr/testify/require"
 )

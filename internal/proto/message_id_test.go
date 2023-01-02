@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/gotd/neo"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func TestMessageID(t *testing.T) {

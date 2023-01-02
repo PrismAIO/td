@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func FuzzRSA(f *testing.F) {

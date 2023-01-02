@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/internal/mt"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/mt"
 )
 
 // Ping sends ping request to server and waits until pong is received or

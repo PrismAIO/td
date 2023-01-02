@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gotd/td/internal/crypto"
+	"github.com/PrismAIO/td/internal/crypto"
 )
 
 func TestFingerprintSinglePK(t *testing.T) {

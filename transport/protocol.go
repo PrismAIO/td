@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/proto/codec"
+	"github.com/PrismAIO/td/internal/proto/codec"
 )
 
 // Protocol is MTProto transport protocol.

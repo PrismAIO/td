@@ -9,9 +9,9 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/internal/exchange"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/telegram/auth"
+	"github.com/PrismAIO/td/internal/exchange"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/telegram/auth"
 )
 
 func (c *Client) runUntilRestart(ctx context.Context) error {

@@ -7,8 +7,8 @@ import (
 	"image/jpeg"
 	"image/png"
 
-	"github.com/gotd/td/telegram/thumbnail"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/thumbnail"
+	"github.com/PrismAIO/td/tg"
 )
 
 func ExampleExpand() {

@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/html"
 
-	"github.com/gotd/td/telegram/message/entity"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/entity"
+	"github.com/PrismAIO/td/tg"
 )
 
 type htmlTestCase struct {

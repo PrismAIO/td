@@ -6,10 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/message"
-	"github.com/gotd/td/telegram/message/unpack"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/message"
+	"github.com/PrismAIO/td/telegram/message/unpack"
+	"github.com/PrismAIO/td/tg"
 )
 
 func unpackMessage(ctx context.Context) error {

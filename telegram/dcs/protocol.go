@@ -3,7 +3,7 @@ package dcs
 import (
 	"net"
 
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/transport"
 )
 
 type protocol interface {

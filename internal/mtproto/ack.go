@@ -6,7 +6,7 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/internal/mt"
+	"github.com/PrismAIO/td/internal/mt"
 )
 
 func (c *Conn) ackLoop(ctx context.Context) error {

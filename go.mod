@@ -1,4 +1,4 @@
-module github.com/gotd/td
+module github.com/PrismAIO/td
 
 go 1.17
 

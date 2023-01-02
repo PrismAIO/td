@@ -6,7 +6,7 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 func (m *Manager) getIDFromInputUser(p tg.InputUserClass) (int64, bool) {

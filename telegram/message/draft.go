@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/telegram/message/entity"
-	"github.com/gotd/td/telegram/message/styling"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/entity"
+	"github.com/PrismAIO/td/telegram/message/styling"
+	"github.com/PrismAIO/td/tg"
 )
 
 func (b *Builder) saveDraftRequest(

@@ -3,6 +3,6 @@
 
 package mtproto
 
-import "github.com/gotd/td/internal/testutil"
+import "github.com/PrismAIO/td/internal/testutil"
 
 type Zero = testutil.ZeroRand

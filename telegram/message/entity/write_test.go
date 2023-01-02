@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 func TestComputeLength(t *testing.T) {

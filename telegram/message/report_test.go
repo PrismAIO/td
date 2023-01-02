@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func expectSendReport(t *testing.T, reason tg.ReportReasonClass, mock *tgmock.Mock, id int, msg string) {

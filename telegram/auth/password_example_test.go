@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/auth"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/auth"
 )
 
 func ExampleClient_UpdatePassword() {

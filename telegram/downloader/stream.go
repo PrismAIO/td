@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/tg"
 )
 
 func (d *Downloader) stream(ctx context.Context, r *reader, w io.Writer) (tg.StorageFileTypeClass, error) {

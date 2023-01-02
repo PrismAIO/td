@@ -10,8 +10,8 @@ import (
 	"golang.org/x/crypto/pbkdf2"
 
 	"github.com/gotd/ige"
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/crypto"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/crypto"
 )
 
 // See https://github.com/telegramdesktop/tdesktop/blob/v2.9.8/Telegram/SourceFiles/storage/details/storage_file_utilities.cpp#L322.

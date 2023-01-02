@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/clock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/clock"
 )
 
 const clientHelloLength = 517

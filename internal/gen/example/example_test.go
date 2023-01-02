@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/tmap"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/tmap"
 )
 
 func BenchmarkMessage_Encode(b *testing.B) {

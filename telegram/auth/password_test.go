@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/tg"
-	"github.com/gotd/td/tgmock"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/tg"
+	"github.com/PrismAIO/td/tgmock"
 )
 
 func TestPasswordHash(t *testing.T) {

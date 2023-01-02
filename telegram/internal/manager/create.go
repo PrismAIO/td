@@ -6,10 +6,10 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/mtproto"
-	"github.com/gotd/td/internal/tdsync"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/mtproto"
+	"github.com/PrismAIO/td/internal/tdsync"
+	"github.com/PrismAIO/td/tg"
 )
 
 // SetupCallback is an optional setup connection callback.

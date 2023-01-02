@@ -13,9 +13,9 @@ import (
 
 	"github.com/gotd/neo"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/mt"
-	"github.com/gotd/td/internal/testutil"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/mt"
+	"github.com/PrismAIO/td/internal/testutil"
 )
 
 type request struct {

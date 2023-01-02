@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/tmap"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/tmap"
 )
 
 func BenchmarkConn_logWithType(b *testing.B) {

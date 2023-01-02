@@ -10,10 +10,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/gotd/td/fileid"
-	"github.com/gotd/td/internal/testutil"
-	"github.com/gotd/td/telegram"
-	"github.com/gotd/td/telegram/downloader"
+	"github.com/PrismAIO/td/fileid"
+	"github.com/PrismAIO/td/internal/testutil"
+	"github.com/PrismAIO/td/telegram"
+	"github.com/PrismAIO/td/telegram/downloader"
 )
 
 func runBot(ctx context.Context, token, fileID string, logger *zap.Logger) error {

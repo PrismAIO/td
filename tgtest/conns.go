@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/transport"
 )
 
 type connection struct {

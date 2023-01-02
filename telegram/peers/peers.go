@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/constant"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/constant"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Peer represents generic peer.

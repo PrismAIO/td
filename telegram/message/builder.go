@@ -3,9 +3,9 @@ package message
 import (
 	"time"
 
-	"github.com/gotd/td/telegram/message/markup"
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/markup"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/tg"
 )
 
 type peerPromise = peer.Promise

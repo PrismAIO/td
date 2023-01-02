@@ -1,7 +1,7 @@
 package members
 
 import (
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 // ChatInfoUnavailableError reports that chat members info is not available.

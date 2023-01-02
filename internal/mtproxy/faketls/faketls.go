@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/clock"
-	"github.com/gotd/td/internal/mtproxy"
+	"github.com/PrismAIO/td/clock"
+	"github.com/PrismAIO/td/internal/mtproxy"
 )
 
 // FakeTLS implements FakeTLS obfuscation protocol.

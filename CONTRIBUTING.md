@@ -5,14 +5,14 @@ See [architecture page](ARCHITECTURE.md) for understanding gotd.
 This project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 Before creating pull requests, please read the [coding guidelines](https://github.com/uber-go/guide/blob/master/style.md) and
-follow some existing [pull requests](https://github.com/gotd/td/pulls).
+follow some existing [pull requests](https://github.com/PrismAIO/td/pulls).
 
 General tradeoffs:
 
-* Less is more
-* Maintainability > feature bloat
-* Simplicity > speed
-* Consistency > elegance
+- Less is more
+- Maintainability > feature bloat
+- Simplicity > speed
+- Consistency > elegance
 
 ## Testing
 
@@ -45,7 +45,7 @@ Note that in most cases, readability is more important than speed.
 
 ## Features
 
-Please check the [projects](https://github.com/gotd/td/projects) page for features that
+Please check the [projects](https://github.com/PrismAIO/td/projects) page for features that
 are on the roadmap. If you have an idea for a new feature, please open a feature request first.
 
 Also, it will be great to [contact](.github/SUPPORT.md) the developers to discuss implementation

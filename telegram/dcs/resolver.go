@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/gotd/td/transport"
+	"github.com/PrismAIO/td/transport"
 )
 
 var _ Resolver = DefaultResolver()

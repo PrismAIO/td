@@ -3,9 +3,9 @@ package session
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/session/tdesktop"
-	"github.com/gotd/td/telegram/dcs"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/session/tdesktop"
+	"github.com/PrismAIO/td/telegram/dcs"
+	"github.com/PrismAIO/td/tg"
 )
 
 func findDCAddr(list []tg.DCOption, dcID int) string {

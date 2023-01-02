@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/bin"
-	"github.com/gotd/td/internal/proto/codec"
+	"github.com/PrismAIO/td/bin"
+	"github.com/PrismAIO/td/internal/proto/codec"
 )
 
 func TestConnection(t *testing.T) {

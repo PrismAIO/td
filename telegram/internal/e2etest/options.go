@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/gotd/td/constant"
-	"github.com/gotd/td/internal/crypto"
+	"github.com/PrismAIO/td/constant"
+	"github.com/PrismAIO/td/internal/crypto"
 )
 
 // TestOptions contains some common test server settings.

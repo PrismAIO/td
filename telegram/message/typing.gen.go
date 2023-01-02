@@ -4,7 +4,7 @@ package message
 import (
 	"context"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 var (

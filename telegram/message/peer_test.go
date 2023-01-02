@@ -7,8 +7,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/tg"
 )
 
 type testResolver struct {

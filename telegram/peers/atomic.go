@@ -3,7 +3,7 @@ package peers
 import (
 	"go.uber.org/atomic"
 
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/tg"
 )
 
 type atomicUser struct {

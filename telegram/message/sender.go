@@ -6,10 +6,10 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/gotd/td/internal/crypto"
-	"github.com/gotd/td/telegram/message/peer"
-	"github.com/gotd/td/telegram/uploader"
-	"github.com/gotd/td/tg"
+	"github.com/PrismAIO/td/internal/crypto"
+	"github.com/PrismAIO/td/telegram/message/peer"
+	"github.com/PrismAIO/td/telegram/uploader"
+	"github.com/PrismAIO/td/tg"
 )
 
 // Sender is a message sending helper.
